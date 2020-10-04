@@ -1,0 +1,65 @@
+
+body{
+    background-color:rgba(183, 210, 235, 0)
+}
+
+.wrapper{
+    max-width: 1000px;
+    background-color: rgb(217, 230, 238);
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.img_button img{
+    display: block;
+}
+
+.img_button:hover{
+    opacity: 1;
+}
+
+.content{
+ display: none;
+ padding: 40px;
+}
+
+.close_button{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color:rgb(116, 168, 236);
+    color: #fff;
+    cursor: pointer;
+}
+
+.img_button{
+    transition: 0.3s all;
+    cursor: pointer; 
+}
+
+/* 横並び追加 */
+.txt_img{
+    display: flex;
+}
+
+.img{
+    width: flex;
+}
+
+.txt{
+    width: 80%;
+    padding: 20px;
+}
+
+/* 個別に指定 */
+#content02 .close_button{
+    background-color:rgb(167, 131, 86)
+}
+
+#content03 .close_button{
+    background-color:rgb(230, 221, 140)
+}
